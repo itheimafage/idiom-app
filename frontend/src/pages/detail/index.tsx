@@ -457,7 +457,7 @@ class Detail extends Component<{}, State> {
         )}
 
         <View className="detail-footer">
-          <Text className="footer-text">花生成语800词</Text>
+          <Text className="footer-text">fage成语</Text>
         </View>
       </ScrollView>
     );

@@ -1,5 +1,5 @@
 export default definePageConfig({
-  navigationBarTitleText: '花生成语800词',
+  navigationBarTitleText: 'fage成语',
   navigationBarBackgroundColor: '#D35400',
   navigationBarTextStyle: 'white',
 })

@@ -1,8 +1,8 @@
 {
   "project_type": "miniprogram",
   "sub_project_type": "",
-  "name": "成语学堂",
+  "name": "fage成语",
   "app_slug": "idiom-app",
-  "version_description": "生成单文件离线HTML永久版本",
+  "version_description": "改名为fage成语",
   "preview_type": "mobile"
 }

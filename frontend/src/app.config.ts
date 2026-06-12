@@ -13,7 +13,7 @@ export default defineAppConfig({
   window: {
     backgroundTextStyle: 'light',
     navigationBarBackgroundColor: '#D35400',
-    navigationBarTitleText: '花生成语800词',
+    navigationBarTitleText: 'fage成语',
     navigationBarTextStyle: 'white',
   },
 })

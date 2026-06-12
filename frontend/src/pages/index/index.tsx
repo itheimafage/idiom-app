@@ -195,9 +195,9 @@ class Index extends Component<{}, State> {
             <View className="brand-icon">
               <Text>🥜</Text>
             </View>
-            <Text className="brand-title">花生成语800词</Text>
+            <Text className="brand-title">fage成语</Text>
           </View>
-          <Text className="brand-subtitle">花生老师高频成语 · 公考必备</Text>
+          <Text className="brand-subtitle">高频成语 · 公考必备</Text>
         </View>
 
         {/* 搜索栏 */}
@@ -433,7 +433,7 @@ class Index extends Component<{}, State> {
         )}
 
         <View className="home-footer">
-          <Text className="footer-text">花生成语800词 · 花生老师出品</Text>
+          <Text className="footer-text">fage成语</Text>
         </View>
       </View>
     );

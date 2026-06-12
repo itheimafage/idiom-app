@@ -1,1 +1,27 @@
-{}
+{
+  "sessionId": "genie-session-45149a54976d4a7395469be0b00129f6",
+  "projectId": "genie-web-project",
+  "errors": [
+    {
+      "type": "error",
+      "message": "Uncaught SyntaxError: Unexpected token '<'",
+      "filename": "https://55221-45149a54976d4a7395469be0b00129f6.e2b.bj7.sandbox.cloudstudio.club/js/taro.2b3c3133.js",
+      "lineno": 1,
+      "colno": 1,
+      "stack": "SyntaxError: Unexpected token '<'",
+      "timestamp": 1781260363532
+    }
+  ],
+  "httpErrors": [],
+  "resourceErrors": [],
+  "longTasks": [],
+  "url": "https://55221-45149a54976d4a7395469be0b00129f6.e2b.bj7.sandbox.cloudstudio.club/idiom-offline.html#/pages/index/index",
+  "userAgent": "Mozilla/5.0 (Linux; U; Android 14; zh-cn; 22101317C Build/UKQ1.240624.001) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.6261.119 Mobile Safari/537.36 XiaoMi/MiuiBrowser/20.2.60828",
+  "timestamp": 1781260515069,
+  "summary": {
+    "totalErrors": 1,
+    "totalHttpErrors": 0,
+    "totalResourceErrors": 0,
+    "totalLongTasks": 0
+  }
+}
