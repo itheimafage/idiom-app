@@ -1,0 +1,194 @@
+// 已学页样式
+
+.learned-loading {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #FFF8F0;
+}
+
+.learned-container {
+  min-height: 100vh;
+  background: #FFF8F0;
+}
+
+.learned-empty {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 200px;
+}
+
+.empty-icon {
+  font-size: 80px;
+  margin-bottom: 30px;
+}
+
+.empty-title {
+  font-size: 32px;
+  color: #4A3728;
+  font-weight: bold;
+  margin-bottom: 12px;
+}
+
+.empty-desc {
+  font-size: 26px;
+  color: #B8A88A;
+  margin-bottom: 40px;
+}
+
+.empty-btn {
+  padding: 20px 50px;
+  background: linear-gradient(135deg, #8B6914, #C49A3C);
+  border-radius: 40px;
+  color: #FFFFFF;
+  font-size: 28px;
+}
+
+.learned-list {
+  height: 100vh;
+}
+
+// 进度卡片
+.progress-card {
+  margin: 24px 32px;
+  padding: 30px;
+  background: linear-gradient(135deg, #8B6914, #C49A3C);
+  border-radius: 20px;
+  box-shadow: 0 4px 16px rgba(139, 105, 20, 0.2);
+}
+
+.progress-title {
+  font-size: 26px;
+  color: rgba(255, 255, 255, 0.85);
+  margin-bottom: 20px;
+}
+
+.progress-main {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.progress-circle {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 4px solid rgba(255, 255, 255, 0.4);
+}
+
+.progress-percent {
+  font-size: 36px;
+  font-weight: bold;
+  color: #FFFFFF;
+}
+
+.progress-info {
+  flex: 1;
+}
+
+.progress-count {
+  font-size: 26px;
+  color: #FFFFFF;
+  margin-bottom: 12px;
+}
+
+.highlight {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.progress-bar-wrap {
+  width: 100%;
+}
+
+.progress-bar-bg {
+  height: 12px;
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.progress-bar-fill {
+  height: 100%;
+  background: #FFFFFF;
+  border-radius: 6px;
+  transition: width 0.5s ease;
+}
+
+// 列表
+.learned-count {
+  padding: 20px 32px;
+  font-size: 24px;
+  color: #B8A88A;
+}
+
+.learned-card {
+  margin: 0 32px 16px;
+  background: #FFFFFF;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(139, 105, 20, 0.06);
+}
+
+.learned-card-main {
+  display: flex;
+  align-items: center;
+  padding: 24px;
+}
+
+.learned-card-left {
+  flex: 1;
+  overflow: hidden;
+}
+
+.learned-card-name {
+  font-size: 32px;
+  font-weight: bold;
+  color: #4A3728;
+  margin-bottom: 4px;
+}
+
+.learned-card-pinyin {
+  font-size: 22px;
+  color: #C4B08A;
+  margin-bottom: 4px;
+}
+
+.learned-card-meaning {
+  font-size: 24px;
+  color: #8B7E6E;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.learned-card-right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-left: 16px;
+  gap: 8px;
+}
+
+.learned-card-diff {
+  font-size: 20px;
+  color: #C49A3C;
+}
+
+.learned-card-action {
+  padding: 16px 24px;
+  text-align: right;
+  border-top: 1px solid #F0E8D8;
+}
+
+.remove-text {
+  font-size: 24px;
+  color: #C62828;
+}

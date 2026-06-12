@@ -1,0 +1,341 @@
+// 学习数据看板样式
+
+.analytics-loading {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: #FDF7F0;
+}
+
+.loading-dot {
+  width: 16px;
+  height: 16px;
+  background: #8B6914;
+  border-radius: 50%;
+  animation: pulse 1s ease-in-out infinite;
+  margin-bottom: 16px;
+}
+
+@keyframes pulse {
+  0%, 100% { transform: scale(1); opacity: 0.6; }
+  50% { transform: scale(1.5); opacity: 1; }
+}
+
+.loading-text {
+  font-size: 26px;
+  color: #B8A88A;
+}
+
+.analytics-container {
+  min-height: 100vh;
+  background: #FDF7F0;
+  padding-bottom: 60px;
+}
+
+// ==========================================
+// 头部
+// ==========================================
+.analytics-header {
+  background: linear-gradient(160deg, #7A5B10 0%, #8B6914 40%, #C49A3C 100%);
+  padding: 40px 28px 36px;
+  text-align: center;
+}
+
+.header-title {
+  font-size: 38px;
+  font-weight: 800;
+  color: #FFFFFF;
+  letter-spacing: 3px;
+  display: block;
+}
+
+.header-subtitle {
+  font-size: 24px;
+  color: rgba(255, 255, 255, 0.7);
+  margin-top: 6px;
+  display: block;
+}
+
+// ==========================================
+// 指标卡片
+// ==========================================
+.metrics-row {
+  display: flex;
+  gap: 14px;
+  padding: 20px 28px 0;
+}
+
+.metric-card {
+  flex: 1;
+  background: #FFFFFF;
+  border-radius: 16px;
+  padding: 24px 12px;
+  text-align: center;
+  box-shadow: 0 2px 12px rgba(139, 105, 20, 0.05);
+
+  &.primary {
+    background: linear-gradient(135deg, #FFF8F0, #FFF3E0);
+    border: 1.5px solid #E8D5B7;
+  }
+
+  &.small {
+    padding: 20px 8px;
+  }
+}
+
+.metric-value {
+  font-size: 40px;
+  font-weight: 800;
+  color: #8B6914;
+  line-height: 1;
+  display: block;
+
+  .metric-card.primary & {
+    font-size: 48px;
+    color: #C49A3C;
+  }
+
+  .metric-card.small & {
+    font-size: 32px;
+  }
+}
+
+.metric-label {
+  font-size: 20px;
+  color: #B8A88A;
+  margin-top: 6px;
+  display: block;
+
+  .metric-card.small & {
+    font-size: 18px;
+  }
+}
+
+// ==========================================
+// 图表区域
+// ==========================================
+.chart-section {
+  margin: 24px 28px 0;
+  background: #FFFFFF;
+  border-radius: 20px;
+  padding: 28px;
+  box-shadow: 0 2px 12px rgba(139, 105, 20, 0.05);
+}
+
+.chart-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 24px;
+}
+
+.chart-title {
+  font-size: 30px;
+  font-weight: 700;
+  color: #4A3728;
+}
+
+.chart-sub {
+  font-size: 22px;
+  color: #B8A88A;
+}
+
+// 柱状图
+.bar-chart {
+  display: flex;
+  align-items: flex-end;
+  gap: 12px;
+  height: 180px;
+  padding-top: 8px;
+}
+
+.bar-col {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+}
+
+.bar-wrapper {
+  flex: 1;
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.bar-fill {
+  width: 70%;
+  border-radius: 6px 6px 0 0;
+  min-height: 4px;
+  transition: height 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+
+  &.good {
+    background: linear-gradient(180deg, #4CAF50, #81C784);
+  }
+
+  &.ok {
+    background: linear-gradient(180deg, #FF9800, #FFB74D);
+  }
+
+  &.bad {
+    background: linear-gradient(180deg, #EF5350, #E57373);
+  }
+}
+
+.bar-score {
+  font-size: 22px;
+  font-weight: 700;
+  color: #4A3728;
+  margin-top: 6px;
+}
+
+.bar-date {
+  font-size: 18px;
+  color: #B8A88A;
+  margin-top: 2px;
+}
+
+// 进度卡片
+.progress-card {
+  text-align: center;
+}
+
+.progress-info {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  gap: 12px;
+  margin-bottom: 16px;
+}
+
+.progress-num {
+  font-size: 36px;
+  font-weight: 800;
+  color: #4A3728;
+}
+
+.progress-pct {
+  font-size: 28px;
+  font-weight: 700;
+  color: #C49A3C;
+}
+
+.progress-bar-large {
+  height: 16px;
+  background: #FDF3E7;
+  border-radius: 8px;
+  overflow: hidden;
+  margin-bottom: 12px;
+}
+
+.progress-fill-large {
+  height: 100%;
+  background: linear-gradient(90deg, #C49A3C, #8B6914);
+  border-radius: 8px;
+  transition: width 0.8s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.progress-desc {
+  font-size: 24px;
+  color: #8B7E6E;
+}
+
+// 薄弱分类
+.weak-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.weak-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.weak-rank {
+  width: 36px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #FDF3E7;
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: 700;
+  color: #8B6914;
+  flex-shrink: 0;
+}
+
+.weak-info {
+  flex: 1;
+  min-width: 0;
+}
+
+.weak-name {
+  font-size: 24px;
+  color: #4A3728;
+  font-weight: 600;
+  margin-bottom: 6px;
+  display: block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.weak-bar-bg {
+  height: 8px;
+  background: #FDF3E7;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.weak-bar-fill {
+  height: 100%;
+  background: linear-gradient(90deg, #EF5350, #FF9800);
+  border-radius: 4px;
+  transition: width 0.6s ease;
+}
+
+.weak-count {
+  font-size: 22px;
+  color: #EF5350;
+  font-weight: 700;
+  flex-shrink: 0;
+}
+
+// 空状态
+.empty-hint {
+  padding: 80px 40px;
+  text-align: center;
+}
+
+.empty-icon-large {
+  font-size: 80px;
+  margin-bottom: 20px;
+}
+
+.empty-title {
+  font-size: 32px;
+  font-weight: 700;
+  color: #4A3728;
+  display: block;
+}
+
+.empty-desc {
+  font-size: 24px;
+  color: #B8A88A;
+  margin-top: 8px;
+  display: block;
+  line-height: 1.6;
+}
+
+// 底部按钮
+.analytics-bottom {
+  padding: 28px;
+}
+

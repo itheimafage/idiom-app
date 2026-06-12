@@ -1,0 +1,299 @@
+// 列表页样式
+
+.list-container {
+  min-height: 100vh;
+  background: #FDF7F0;
+}
+
+// ==========================================
+// 搜索栏
+// ==========================================
+.list-search-bar {
+  background: #FFFFFF;
+  padding: 16px 24px;
+  box-shadow: 0 2px 12px rgba(139, 105, 20, 0.06);
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+// ==========================================
+// 筛选栏
+// ==========================================
+.filter-bar {
+  display: flex;
+  align-items: center;
+  padding: 16px 24px;
+  background: #FFFFFF;
+  border-bottom: 1px solid #FDF3E7;
+  position: sticky;
+  top: 96px;
+  z-index: 9;
+}
+
+.filter-tag {
+  display: flex;
+  align-items: center;
+  padding: 12px 22px;
+  background: #FDF3E7;
+  border-radius: 12px;
+  border: 1.5px solid #E8D5B7;
+  margin-right: 12px;
+  flex-shrink: 0;
+  transition: all 0.2s ease;
+
+  &.active {
+    background: #8B6914;
+    border-color: #8B6914;
+  }
+
+  &.active .filter-icon {
+    color: #FFFFFF;
+  }
+}
+
+.filter-icon {
+  font-size: 24px;
+  color: #8B6914;
+  font-weight: 600;
+}
+
+.filter-dot {
+  width: 8px;
+  height: 8px;
+  background: #E84A3C;
+  border-radius: 50%;
+  margin-left: 8px;
+}
+
+.filter-scroll {
+  flex: 1;
+  display: flex;
+  white-space: nowrap;
+}
+
+.active-filter {
+  padding: 12px 20px;
+  background: #FDF3E7;
+  border-radius: 12px;
+  border: 1.5px solid #C49A3C;
+  margin-right: 10px;
+  font-size: 24px;
+  color: #8B6914;
+  flex-shrink: 0;
+}
+
+// ==========================================
+// 筛选面板
+// ==========================================
+.filter-panel {
+  background: #FFFFFF;
+  padding: 20px 24px;
+  border-bottom: 1px solid #FDF3E7;
+  max-height: 400px;
+  overflow-y: auto;
+}
+
+.filter-group {
+  margin-bottom: 20px;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.filter-group-title {
+  font-size: 26px;
+  font-weight: 700;
+  color: #4A3728;
+  margin-bottom: 12px;
+  display: flex;
+  align-items: center;
+
+  &::before {
+    content: '';
+    width: 4px;
+    height: 20px;
+    background: #C49A3C;
+    border-radius: 2px;
+    margin-right: 10px;
+  }
+}
+
+.filter-options {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.filter-option {
+  padding: 10px 20px;
+  background: #FDF7F0;
+  border-radius: 10px;
+  border: 1.5px solid #EDE0D0;
+  font-size: 24px;
+  color: #5C4A3A;
+  transition: all 0.2s ease;
+
+  &.selected {
+    background: #8B6914;
+    border-color: #8B6914;
+    color: #FFFFFF;
+  }
+
+  &:active {
+    transform: scale(0.96);
+  }
+}
+
+.letter-opt {
+  min-width: 56px;
+  text-align: center;
+  padding: 10px 0;
+}
+
+// ==========================================
+// 结果统计
+// ==========================================
+.result-count {
+  padding: 16px 28px;
+  font-size: 24px;
+  color: #B8A88A;
+  background: #FDF7F0;
+  border-bottom: 1px solid #EDE0D0;
+}
+
+// ==========================================
+// 列表
+// ==========================================
+.list-scroll {
+  height: calc(100vh - 280px);
+}
+
+.idiom-card {
+  display: flex;
+  align-items: center;
+  padding: 28px 24px;
+  margin: 12px 24px;
+  background: #FFFFFF;
+  border-radius: 16px;
+  box-shadow: 0 2px 10px rgba(139, 105, 20, 0.04);
+  border: 1px solid #FDF3E7;
+  transition: all 0.2s ease;
+  position: relative;
+  overflow: hidden;
+
+  &:active {
+    transform: scale(0.98);
+    box-shadow: 0 4px 16px rgba(139, 105, 20, 0.1);
+    border-color: #E8D5B7;
+  }
+
+  &::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 4px;
+    background: linear-gradient(180deg, #C49A3C, #8B6914);
+    border-radius: 0 2px 2px 0;
+  }
+}
+
+.card-left {
+  flex: 1;
+  min-width: 0;
+}
+
+.card-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.card-name {
+  font-size: 32px;
+  font-weight: 700;
+  color: #4A3728;
+  margin-right: 12px;
+}
+
+.card-pinyin {
+  font-size: 22px;
+  color: #B8A88A;
+}
+
+.card-meaning {
+  font-size: 24px;
+  color: #8B7E6E;
+  line-height: 1.5;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  max-width: 420px;
+}
+
+.card-right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 8px;
+  flex-shrink: 0;
+}
+
+.card-category {
+  padding: 4px 14px;
+  background: #FDF3E7;
+  border-radius: 12px;
+  font-size: 20px;
+  color: #8B6914;
+  border: 1px solid #E8D5B7;
+}
+
+.card-difficulty {
+  font-size: 20px;
+  color: #C49A3C;
+  letter-spacing: 2px;
+}
+
+.card-arrow {
+  font-size: 28px;
+  color: #D0C0A0;
+  margin-left: 12px;
+}
+
+// ==========================================
+// 加载 & 空状态
+// ==========================================
+.loading-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 120px 0;
+}
+
+.empty-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 120px 40px;
+}
+
+.empty-icon {
+  font-size: 80px;
+  margin-bottom: 20px;
+  opacity: 0.6;
+}
+
+.empty-text {
+  font-size: 28px;
+  color: #B8A88A;
+  margin-bottom: 12px;
+}
+
+.empty-hint {
+  font-size: 24px;
+  color: #D0C0A0;
+}

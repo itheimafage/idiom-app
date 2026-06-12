@@ -1,0 +1,47 @@
+[
+  {
+    "pageKey": "index",
+    "title": "花生成语800词",
+    "url": "/"
+  },
+  {
+    "pageKey": "analytics",
+    "title": "花生成语800词",
+    "url": "/analytics"
+  },
+  {
+    "pageKey": "detail",
+    "title": "花生成语800词",
+    "url": "/detail"
+  },
+  {
+    "pageKey": "favorites",
+    "title": "花生成语800词",
+    "url": "/favorites"
+  },
+  {
+    "pageKey": "learned",
+    "title": "花生成语800词",
+    "url": "/learned"
+  },
+  {
+    "pageKey": "list",
+    "title": "花生成语800词",
+    "url": "/list"
+  },
+  {
+    "pageKey": "quiz",
+    "title": "花生成语800词",
+    "url": "/quiz"
+  },
+  {
+    "pageKey": "synonym",
+    "title": "花生成语800词",
+    "url": "/synonym"
+  },
+  {
+    "pageKey": "wrongbook",
+    "title": "花生成语800词",
+    "url": "/wrongbook"
+  }
+]

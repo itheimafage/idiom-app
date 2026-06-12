@@ -1,0 +1,8 @@
+{
+  "buildCommand": "cd frontend && npm install && npm run build:h5",
+  "outputDirectory": "frontend/dist",
+  "rewrites": [
+    { "source": "/api/(.*)", "destination": "https://idiom-app-backend.onrender.com/api/$1" },
+    { "source": "/(.*)", "destination": "/index.html" }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "project_type": "miniprogram",
+  "sub_project_type": "",
+  "name": "成语学堂",
+  "app_slug": "idiom-app",
+  "version_description": "生成单文件离线HTML永久版本",
+  "preview_type": "mobile"
+}

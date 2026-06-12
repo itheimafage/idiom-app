@@ -1,0 +1,122 @@
+// 收藏页样式
+
+.fav-loading {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #FFF8F0;
+}
+
+.fav-container {
+  min-height: 100vh;
+  background: #FFF8F0;
+}
+
+.fav-empty {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 200px;
+}
+
+.empty-icon {
+  font-size: 80px;
+  margin-bottom: 30px;
+}
+
+.empty-title {
+  font-size: 32px;
+  color: #4A3728;
+  font-weight: bold;
+  margin-bottom: 12px;
+}
+
+.empty-desc {
+  font-size: 26px;
+  color: #B8A88A;
+  margin-bottom: 40px;
+}
+
+.empty-btn {
+  padding: 20px 50px;
+  background: linear-gradient(135deg, #8B6914, #C49A3C);
+  border-radius: 40px;
+  color: #FFFFFF;
+  font-size: 28px;
+}
+
+.fav-list {
+  height: 100vh;
+}
+
+.fav-count {
+  padding: 20px 32px;
+  font-size: 24px;
+  color: #B8A88A;
+}
+
+.fav-card {
+  margin: 0 32px 16px;
+  background: #FFFFFF;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(139, 105, 20, 0.06);
+}
+
+.fav-card-main {
+  display: flex;
+  align-items: center;
+  padding: 24px;
+}
+
+.fav-card-left {
+  flex: 1;
+  overflow: hidden;
+}
+
+.fav-card-name {
+  font-size: 32px;
+  font-weight: bold;
+  color: #4A3728;
+  margin-bottom: 4px;
+}
+
+.fav-card-pinyin {
+  font-size: 22px;
+  color: #C4B08A;
+  margin-bottom: 4px;
+}
+
+.fav-card-meaning {
+  font-size: 24px;
+  color: #8B7E6E;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.fav-card-right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-left: 16px;
+  gap: 8px;
+}
+
+.fav-card-diff {
+  font-size: 20px;
+  color: #C49A3C;
+}
+
+.fav-card-action {
+  padding: 16px 24px;
+  text-align: right;
+  border-top: 1px solid #F0E8D8;
+}
+
+.remove-text {
+  font-size: 24px;
+  color: #C62828;
+}

@@ -1,0 +1,11 @@
+node_modules/
+dist/
+weapp/
+.pnpm/
+.git/
+.genie/
+.codebuddy/
+*.log
+.DS_Store
+.env.tcb
+backend/.env

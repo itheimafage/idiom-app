@@ -1,0 +1,332 @@
+// 错题本页面样式
+
+.wrongbook-loading {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #FDF7F0;
+}
+
+.wrongbook-container {
+  min-height: 100vh;
+  background: #FDF7F0;
+  padding-bottom: 60px;
+}
+
+// 头部
+.wrongbook-header {
+  background: linear-gradient(160deg, #7A5B10 0%, #8B6914 40%, #C49A3C 100%);
+  padding: 40px 28px 48px;
+}
+
+.header-card {
+  display: flex;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 20px;
+  padding: 28px;
+  backdrop-filter: blur(4px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.header-icon {
+  width: 72px;
+  height: 72px;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 40px;
+  margin-right: 20px;
+}
+
+.header-info {
+  flex: 1;
+}
+
+.header-count {
+  font-size: 52px;
+  font-weight: 800;
+  color: #FFFFFF;
+  line-height: 1;
+  display: block;
+}
+
+.header-label {
+  font-size: 24px;
+  color: rgba(255, 255, 255, 0.8);
+  margin-top: 4px;
+  display: block;
+}
+
+.header-action {
+  padding: 14px 28px;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 14px;
+}
+
+.header-action-text {
+  font-size: 26px;
+  color: #FFFFFF;
+  font-weight: 600;
+}
+
+.header-tip {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.tip-text {
+  font-size: 24px;
+  color: rgba(255, 255, 255, 0.75);
+}
+
+// 空状态
+.wrongbook-empty {
+  padding: 100px 40px;
+  text-align: center;
+}
+
+.empty-icon {
+  font-size: 80px;
+  margin-bottom: 20px;
+}
+
+.empty-title {
+  font-size: 36px;
+  font-weight: 700;
+  color: #4A3728;
+  display: block;
+}
+
+.empty-desc {
+  font-size: 26px;
+  color: #B8A88A;
+  margin-top: 8px;
+  display: block;
+}
+
+// 错题列表
+.wrong-item {
+  margin: 16px 28px;
+  background: #FFFFFF;
+  border-radius: 16px;
+  border: 1px solid #FFEBEE;
+  box-shadow: 0 2px 10px rgba(139, 105, 20, 0.04);
+  overflow: hidden;
+  transition: all 0.2s ease;
+
+  &.expanded {
+    border-color: #FDEBD0;
+    box-shadow: 0 4px 20px rgba(139, 105, 20, 0.1);
+  }
+}
+
+// 摘要区
+.wrong-item-summary {
+  display: flex;
+  align-items: center;
+  padding: 24px 20px;
+  position: relative;
+
+  &:active {
+    background: #FFFDF7;
+  }
+}
+
+.wrong-item-left {
+  flex: 1;
+  min-width: 0;
+}
+
+.wrong-item-text {
+  font-size: 26px;
+  color: #4A3728;
+  font-weight: 600;
+  display: block;
+  line-height: 1.6;
+}
+
+.wrong-item-meta {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.wrong-item-answer {
+  font-size: 22px;
+  color: #D35400;
+  font-weight: 700;
+  background: #FFF0E0;
+  padding: 4px 12px;
+  border-radius: 8px;
+}
+
+.wrong-item-source {
+  font-size: 20px;
+  color: #B8A88A;
+}
+
+.wrong-item-actions {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-left: 12px;
+  flex-shrink: 0;
+}
+
+.redo-btn {
+  padding: 10px 20px;
+  background: linear-gradient(135deg, #E67E22, #D35400);
+  border-radius: 20px;
+}
+
+.redo-btn-text {
+  font-size: 22px;
+  color: #FFFFFF;
+  font-weight: 700;
+}
+
+.wrong-item-remove {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #FFEBEE;
+  border-radius: 50%;
+}
+
+.remove-icon {
+  font-size: 20px;
+  color: #EF5350;
+  font-weight: 700;
+}
+
+// ==========================================
+// 展开重做区
+// ==========================================
+.wrong-item-redo {
+  padding: 0 20px 24px;
+  border-top: 1px dashed #E8D5B7;
+  padding-top: 20px;
+}
+
+.redo-stem {
+  background: #FFFDF7;
+  border-radius: 12px;
+  padding: 20px;
+  margin-bottom: 16px;
+  border: 1px solid #FDEBD0;
+}
+
+.redo-stem-text {
+  font-size: 26px;
+  color: #4A3728;
+  line-height: 1.7;
+  font-weight: 500;
+}
+
+.redo-options {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.redo-option {
+  display: flex;
+  align-items: center;
+  padding: 18px 16px;
+  background: #FFFDF7;
+  border: 1.5px solid #FDEBD0;
+  border-radius: 14px;
+  transition: all 0.15s ease;
+
+  &:active {
+    background: #FFF3E0;
+    border-color: #E67E22;
+  }
+
+  &.redo-correct {
+    background: #E8F5E9;
+    border-color: #4CAF50;
+  }
+
+  &.redo-wrong {
+    background: #FFEBEE;
+    border-color: #EF5350;
+  }
+}
+
+.redo-option-letter {
+  width: 40px;
+  height: 40px;
+  background: #FDF3E7;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  font-weight: 800;
+  color: #8B6914;
+  margin-right: 14px;
+  flex-shrink: 0;
+
+  .redo-correct & {
+    background: #C8E6C9;
+    color: #2E7D32;
+  }
+
+  .redo-wrong & {
+    background: #FFCDD2;
+    color: #C62828;
+  }
+}
+
+.redo-option-text {
+  font-size: 24px;
+  color: #4A3728;
+  flex: 1;
+  line-height: 1.5;
+}
+
+.redo-mark {
+  font-size: 28px;
+  font-weight: 700;
+  margin-left: 8px;
+  color: #4CAF50;
+
+  &.wrong-mark {
+    color: #EF5350;
+  }
+}
+
+.redo-feedback {
+  margin-top: 16px;
+  padding: 16px;
+  border-radius: 12px;
+  text-align: center;
+
+  &.correct {
+    background: #E8F5E9;
+  }
+
+  &.wrong {
+    background: #FFEBEE;
+  }
+}
+
+.redo-feedback-text {
+  font-size: 24px;
+  font-weight: 600;
+  color: #4A3728;
+}
+
+// 底部
+.wrongbook-bottom {
+  padding: 28px;
+}

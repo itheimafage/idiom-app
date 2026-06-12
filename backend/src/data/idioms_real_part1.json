@@ -1,0 +1,650 @@
+[
+  {
+    "name": "源远流长",
+    "pinyin": "yuán yuǎn liú cháng",
+    "meaning": "源头远，水流长。比喻历史悠久。",
+    "source": "《明史·徐贞明传》",
+    "examples": [
+      "中国和印度尼西亚隔海相望，两国友好关系的历史源远流长。"
+    ],
+    "synonyms": [
+      "历史悠久"
+    ],
+    "antonyms": [],
+    "category": "中华文明传统文化",
+    "difficulty": 1,
+    "id": 1,
+    "abbr": "yylc",
+    "firstLetter": "Y"
+  },
+  {
+    "name": "连绵不绝",
+    "pinyin": "lián mián bù jué",
+    "meaning": "连续而不中断。",
+    "source": "《三侠五义》",
+    "examples": [
+      "远处的山峦连绵不绝，景色十分壮观。"
+    ],
+    "synonyms": [
+      "连续不断"
+    ],
+    "antonyms": [
+      "断断续续"
+    ],
+    "category": "中华文明传统文化",
+    "difficulty": 1,
+    "id": 2,
+    "abbr": "lmbj",
+    "firstLetter": "L"
+  },
+  {
+    "name": "博大精深",
+    "pinyin": "bó dà jīng shēn",
+    "meaning": "形容思想和学识广博高深。",
+    "source": "《明儒学案》",
+    "examples": [
+      "中华文化博大精深，值得我们深入学习。"
+    ],
+    "synonyms": [
+      "学富五车"
+    ],
+    "antonyms": [
+      "才疏学浅"
+    ],
+    "category": "中华文明传统文化",
+    "difficulty": 1,
+    "id": 3,
+    "abbr": "bdjs",
+    "firstLetter": "B"
+  },
+  {
+    "name": "历久弥新",
+    "pinyin": "lì jiǔ mí xīn",
+    "meaning": "经历长久的时间而更加鲜活，更加有活力。",
+    "source": "《论语》注疏",
+    "examples": [
+      "中国传统文化历久弥新，在现代社会依然闪耀着智慧的光芒。"
+    ],
+    "synonyms": [
+      "经久不衰"
+    ],
+    "antonyms": [
+      "昙花一现"
+    ],
+    "category": "中华文明传统文化",
+    "difficulty": 2,
+    "id": 4,
+    "abbr": "ljmx",
+    "firstLetter": "L"
+  },
+  {
+    "name": "兼收并蓄",
+    "pinyin": "jiān shōu bìng xù",
+    "meaning": "把不同内容、不同性质的东西收下来，保存起来。",
+    "source": "《昌黎先生集》",
+    "examples": [
+      "中华文化兼收并蓄，吸收了各民族文化的精华。"
+    ],
+    "synonyms": [
+      "兼容并包"
+    ],
+    "antonyms": [
+      "排斥异己"
+    ],
+    "category": "中华文明传统文化",
+    "difficulty": 2,
+    "id": 5,
+    "abbr": "jsbx",
+    "firstLetter": "J"
+  },
+  {
+    "name": "一脉相承",
+    "pinyin": "yī mài xiāng chéng",
+    "meaning": "由一个血统或一个派别传下来。比喻某种思想、行为或学说之间有继承关系。",
+    "source": "《歧路灯》",
+    "examples": [
+      "这种家风一脉相承，代代相传。"
+    ],
+    "synonyms": [
+      "一脉相通"
+    ],
+    "antonyms": [],
+    "category": "文化传承",
+    "difficulty": 1,
+    "id": 6,
+    "abbr": "ymxc",
+    "firstLetter": "Y"
+  },
+  {
+    "name": "血脉相通",
+    "pinyin": "xuè mài xiāng tōng",
+    "meaning": "比喻有血缘关系或密切的联系。",
+    "source": "《后汉书》",
+    "examples": [
+      "海外侨胞与我们血脉相通，有着割不断的亲情。"
+    ],
+    "synonyms": [
+      "血肉相连"
+    ],
+    "antonyms": [],
+    "category": "文化传承",
+    "difficulty": 1,
+    "id": 7,
+    "abbr": "xmxt",
+    "firstLetter": "X"
+  },
+  {
+    "name": "薪火相传",
+    "pinyin": "xīn huǒ xiāng chuán",
+    "meaning": "比喻学问和技艺代代相传。",
+    "source": "《庄子·养生主》",
+    "examples": [
+      "传统文化需要薪火相传，不能让它在历史长河中湮灭。"
+    ],
+    "synonyms": [
+      "世代相传"
+    ],
+    "antonyms": [
+      "后继无人"
+    ],
+    "category": "文化传承",
+    "difficulty": 1,
+    "id": 8,
+    "abbr": "xhxc",
+    "firstLetter": "X"
+  },
+  {
+    "name": "不绝如缕",
+    "pinyin": "bù jué rú lǚ",
+    "meaning": "像细线一样连着，差点儿就要断了。多形容局面危急或声音、气息等低沉微弱、时断时续。",
+    "source": "《公羊传·僖公四年》",
+    "examples": [
+      "典籍记载不绝如缕，需要后人精心保护。"
+    ],
+    "synonyms": [
+      "危如累卵"
+    ],
+    "antonyms": [
+      "牢不可破"
+    ],
+    "category": "文化传承",
+    "difficulty": 2,
+    "id": 9,
+    "abbr": "bjrl",
+    "firstLetter": "B"
+  },
+  {
+    "name": "口耳相传",
+    "pinyin": "kǒu ěr xiāng chuán",
+    "meaning": "口说耳听地往下传授。",
+    "source": "《说文解字注》",
+    "examples": [
+      "许多民间故事都是口耳相传流传下来的。"
+    ],
+    "synonyms": [
+      "口传心授"
+    ],
+    "antonyms": [],
+    "category": "文化传承",
+    "difficulty": 1,
+    "id": 10,
+    "abbr": "kěxc",
+    "firstLetter": "K"
+  },
+  {
+    "name": "衣钵相传",
+    "pinyin": "yī bō xiāng chuán",
+    "meaning": "中国禅宗师徒间道法传授，常常举行授与衣钵的仪式。比喻技术、学术的师徒相传。",
+    "source": "《旧唐书·神秀传》",
+    "examples": [
+      "这门手艺衣钵相传，已经延续了数百年。"
+    ],
+    "synonyms": [
+      "薪火相传"
+    ],
+    "antonyms": [],
+    "category": "文化传承",
+    "difficulty": 2,
+    "id": 11,
+    "abbr": "ybxc",
+    "firstLetter": "Y"
+  },
+  {
+    "name": "后继无人",
+    "pinyin": "hòu jì wú rén",
+    "meaning": "没有后人来继承前人的事业。",
+    "source": "《左传·襄公二十九年》",
+    "examples": [
+      "这门传统技艺面临后继无人的困境。"
+    ],
+    "synonyms": [
+      "青黄不接"
+    ],
+    "antonyms": [
+      "后继有人"
+    ],
+    "category": "文化传承",
+    "difficulty": 1,
+    "id": 12,
+    "abbr": "hjwr",
+    "firstLetter": "H"
+  },
+  {
+    "name": "一脉相通",
+    "pinyin": "yī mài xiāng tōng",
+    "meaning": "指事物之间相互关联，犹如一条脉络贯穿下来可以互通。",
+    "source": "《文心雕龙》",
+    "examples": [
+      "这些思想一脉相通，构成了完整的理论体系。"
+    ],
+    "synonyms": [
+      "一脉相承"
+    ],
+    "antonyms": [],
+    "category": "文化传承",
+    "difficulty": 2,
+    "id": 13,
+    "abbr": "ymxt",
+    "firstLetter": "Y"
+  },
+  {
+    "name": "世代相传",
+    "pinyin": "shì dài xiāng chuán",
+    "meaning": "祖祖辈辈传下来。",
+    "source": "《汉书·贾谊传》",
+    "examples": [
+      "这个家族世代相传的技艺令人赞叹。"
+    ],
+    "synonyms": [
+      "薪火相传"
+    ],
+    "antonyms": [
+      "后继无人"
+    ],
+    "category": "文化传承",
+    "difficulty": 1,
+    "id": 14,
+    "abbr": "sdxc",
+    "firstLetter": "S"
+  },
+  {
+    "name": "继往开来",
+    "pinyin": "jì wǎng kāi lái",
+    "meaning": "继承前人的事业，开辟未来的道路。",
+    "source": "《朱子全书·周子书》",
+    "examples": [
+      "我们要继往开来，把中华文化发扬光大。"
+    ],
+    "synonyms": [
+      "承前启后"
+    ],
+    "antonyms": [
+      "墨守成规"
+    ],
+    "category": "文化传承",
+    "difficulty": 1,
+    "id": 15,
+    "abbr": "jwkl",
+    "firstLetter": "J"
+  },
+  {
+    "name": "推陈出新",
+    "pinyin": "tuī chén chū xīn",
+    "meaning": "去掉旧事物的糟粕，取其精华，并使它向新的方向发展。",
+    "source": "《东坡题跋》",
+    "examples": [
+      "艺术创作要推陈出新，不能一味模仿古人。"
+    ],
+    "synonyms": [
+      "革故鼎新"
+    ],
+    "antonyms": [
+      "因循守旧"
+    ],
+    "category": "改革创新",
+    "difficulty": 1,
+    "id": 16,
+    "abbr": "tccx",
+    "firstLetter": "T"
+  },
+  {
+    "name": "革故鼎新",
+    "pinyin": "gé gù dǐng xīn",
+    "meaning": "除去旧的，建立新的。",
+    "source": "《周易·杂卦》",
+    "examples": [
+      "企业要想发展，必须有革故鼎新的勇气。"
+    ],
+    "synonyms": [
+      "推陈出新"
+    ],
+    "antonyms": [
+      "墨守成规"
+    ],
+    "category": "改革创新",
+    "difficulty": 2,
+    "id": 17,
+    "abbr": "ggdx",
+    "firstLetter": "G"
+  },
+  {
+    "name": "破旧立新",
+    "pinyin": "pò jiù lì xīn",
+    "meaning": "破除旧的，建立新的。",
+    "source": "《人民日报》",
+    "examples": [
+      "改革开放就是一场破旧立新的伟大革命。"
+    ],
+    "synonyms": [
+      "革故鼎新"
+    ],
+    "antonyms": [
+      "因循守旧"
+    ],
+    "category": "改革创新",
+    "difficulty": 1,
+    "id": 18,
+    "abbr": "pjlx",
+    "firstLetter": "P"
+  },
+  {
+    "name": "除旧布新",
+    "pinyin": "chú jiù bù xīn",
+    "meaning": "清除旧的，建立新的。",
+    "source": "《左传·昭公十七年》",
+    "examples": [
+      "新春佳节，家家户户除旧布新。"
+    ],
+    "synonyms": [
+      "破旧立新"
+    ],
+    "antonyms": [
+      "抱残守缺"
+    ],
+    "category": "改革创新",
+    "difficulty": 2,
+    "id": 19,
+    "abbr": "cjbx",
+    "firstLetter": "C"
+  },
+  {
+    "name": "吐故纳新",
+    "pinyin": "tǔ gù nà xīn",
+    "meaning": "原指人呼吸时，吐出浊气，吸进新鲜空气。现多比喻扬弃旧的、不好的，吸收新的、好的。",
+    "source": "《庄子·刻意》",
+    "examples": [
+      "组织需要不断吐故纳新，才能保持活力。"
+    ],
+    "synonyms": [
+      "推陈出新"
+    ],
+    "antonyms": [
+      "墨守成规"
+    ],
+    "category": "改革创新",
+    "difficulty": 2,
+    "id": 20,
+    "abbr": "tgnx",
+    "firstLetter": "T"
+  },
+  {
+    "name": "标新立异",
+    "pinyin": "biāo xīn lì yì",
+    "meaning": "提出新奇的主张，显示与众不同。",
+    "source": "《世说新语·文学》",
+    "examples": [
+      "他在设计上喜欢标新立异，作品很有个性。"
+    ],
+    "synonyms": [
+      "独树一帜"
+    ],
+    "antonyms": [
+      "因循守旧"
+    ],
+    "category": "改革创新",
+    "difficulty": 1,
+    "id": 21,
+    "abbr": "bxly",
+    "firstLetter": "B"
+  },
+  {
+    "name": "独树一帜",
+    "pinyin": "dú shù yī zhì",
+    "meaning": "单独树起一面旗帜。比喻独特新奇，自成一家。",
+    "source": "《随园诗话》",
+    "examples": [
+      "他在书法艺术上独树一帜，形成了自己的风格。"
+    ],
+    "synonyms": [
+      "标新立异"
+    ],
+    "antonyms": [
+      "亦步亦趋"
+    ],
+    "category": "改革创新",
+    "difficulty": 1,
+    "id": 22,
+    "abbr": "dsyz",
+    "firstLetter": "D"
+  },
+  {
+    "name": "别出心裁",
+    "pinyin": "bié chū xīn cái",
+    "meaning": "另有一种构思或设计。指想出的办法与众不同。",
+    "source": "《水浒后传》",
+    "examples": [
+      "这次活动设计别出心裁，很有创意。"
+    ],
+    "synonyms": [
+      "独具匠心"
+    ],
+    "antonyms": [
+      "千篇一律"
+    ],
+    "category": "做法构思创新",
+    "difficulty": 1,
+    "id": 23,
+    "abbr": "bcxc",
+    "firstLetter": "B"
+  },
+  {
+    "name": "独具匠心",
+    "pinyin": "dú jù jiàng xīn",
+    "meaning": "具有独到的灵巧心思。指在技巧和艺术方面具有与众不同的巧妙构思。",
+    "source": "《诗刊》",
+    "examples": [
+      "这座园林设计独具匠心，一步一景。"
+    ],
+    "synonyms": [
+      "别出心裁"
+    ],
+    "antonyms": [
+      "粗制滥造"
+    ],
+    "category": "做法构思创新",
+    "difficulty": 1,
+    "id": 24,
+    "abbr": "djjx",
+    "firstLetter": "D"
+  },
+  {
+    "name": "另辟蹊径",
+    "pinyin": "lìng pì xī jìng",
+    "meaning": "另外开辟一条路。比喻另创一种风格或方法。",
+    "source": "《镜花缘》",
+    "examples": [
+      "在传统工艺上另辟蹊径，创造出了全新的产品。"
+    ],
+    "synonyms": [
+      "独辟蹊径"
+    ],
+    "antonyms": [
+      "墨守成规"
+    ],
+    "category": "做法构思创新",
+    "difficulty": 2,
+    "id": 25,
+    "abbr": "lpxj",
+    "firstLetter": "L"
+  },
+  {
+    "name": "独辟蹊径",
+    "pinyin": "dú pì xī jìng",
+    "meaning": "自己开辟一条路。比喻独创一种风格或新的方法。",
+    "source": "《孽海花》",
+    "examples": [
+      "他独辟蹊径，开创了研究的新领域。"
+    ],
+    "synonyms": [
+      "另辟蹊径"
+    ],
+    "antonyms": [
+      "亦步亦趋"
+    ],
+    "category": "做法构思创新",
+    "difficulty": 2,
+    "id": 26,
+    "abbr": "dpxj",
+    "firstLetter": "D"
+  },
+  {
+    "name": "匠心独运",
+    "pinyin": "jiàng xīn dú yùn",
+    "meaning": "独创性地运用精巧的心思。",
+    "source": "《文心雕龙》",
+    "examples": [
+      "这幅画构图匠心独运，令人赞叹。"
+    ],
+    "synonyms": [
+      "别出心裁"
+    ],
+    "antonyms": [
+      "粗制滥造"
+    ],
+    "category": "做法构思创新",
+    "difficulty": 2,
+    "id": 27,
+    "abbr": "jxdy",
+    "firstLetter": "J"
+  },
+  {
+    "name": "别开生面",
+    "pinyin": "bié kāi shēng miàn",
+    "meaning": "另外开辟新的局面或创造新的形式。",
+    "source": "《丹青引赠曹将军霸》",
+    "examples": [
+      "这次展览别开生面，吸引了众多观众。"
+    ],
+    "synonyms": [
+      "别出心裁"
+    ],
+    "antonyms": [
+      "千篇一律"
+    ],
+    "category": "做法构思创新",
+    "difficulty": 1,
+    "id": 28,
+    "abbr": "bksm",
+    "firstLetter": "B"
+  },
+  {
+    "name": "自成一家",
+    "pinyin": "zì chéng yī jiā",
+    "meaning": "在某种学问或技艺上有所创新，能自成体系。",
+    "source": "《汉书·司马迁传》",
+    "examples": [
+      "他的学术研究自成一家，影响深远。"
+    ],
+    "synonyms": [
+      "独树一帜"
+    ],
+    "antonyms": [
+      "拾人牙慧"
+    ],
+    "category": "做法构思创新",
+    "difficulty": 1,
+    "id": 29,
+    "abbr": "zcyj",
+    "firstLetter": "Z"
+  },
+  {
+    "name": "自出机杼",
+    "pinyin": "zì chū jī zhù",
+    "meaning": "比喻诗文的构思和布局别出心裁、独创新意。",
+    "source": "《魏书·祖莹传》",
+    "examples": [
+      "这篇小说情节自出机杼，引人入胜。"
+    ],
+    "synonyms": [
+      "别出心裁"
+    ],
+    "antonyms": [
+      "拾人牙慧"
+    ],
+    "category": "做法构思创新",
+    "difficulty": 3,
+    "id": 30,
+    "abbr": "zcjz",
+    "firstLetter": "Z"
+  },
+  {
+    "name": "不落窠臼",
+    "pinyin": "bù luò kē jiù",
+    "meaning": "比喻有独创风格，不落旧套。",
+    "source": "《红楼梦》",
+    "examples": [
+      "这部电影叙事方式不落窠臼，给人耳目一新的感觉。"
+    ],
+    "synonyms": [
+      "别出心裁"
+    ],
+    "antonyms": [
+      "落入俗套"
+    ],
+    "category": "做法构思创新",
+    "difficulty": 2,
+    "id": 31,
+    "abbr": "blkj",
+    "firstLetter": "B"
+  },
+  {
+    "name": "不拘一格",
+    "pinyin": "bù jū yī gé",
+    "meaning": "不局限于一种规格或一个格局。",
+    "source": "《己亥杂诗》",
+    "examples": [
+      "选拔人才要不拘一格，唯才是用。"
+    ],
+    "synonyms": [
+      "不落窠臼"
+    ],
+    "antonyms": [
+      "墨守成规"
+    ],
+    "category": "做法构思创新",
+    "difficulty": 1,
+    "id": 32,
+    "abbr": "bjyg",
+    "firstLetter": "B"
+  },
+  {
+    "name": "耳目一新",
+    "pinyin": "ěr mù yī xīn",
+    "meaning": "听到的、看到的跟以前完全不同，令人感觉到很新鲜。",
+    "source": "《二十年目睹之怪现状》",
+    "examples": [
+      "新装修的教室让人耳目一新。"
+    ],
+    "synonyms": [
+      "焕然一新"
+    ],
+    "antonyms": [
+      "依然如故"
+    ],
+    "category": "做法构思创新",
+    "difficulty": 1,
+    "id": 33,
+    "abbr": "ěmyx",
+    "firstLetter": "Ě"
+  }
+]
