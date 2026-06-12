@@ -1,0 +1,16 @@
+{
+  "miniprogramRoot": "./",
+  "projectname": "huasheng-idiom",
+  "description": "花生成语800词 - 公考成语学习小程序",
+  "appid": "wxafbfe372471235f0",
+  "setting": {
+    "urlCheck": true,
+    "es6": false,
+    "enhance": false,
+    "compileHotReLoad": false,
+    "postcss": false,
+    "minified": false,
+    "bundle": false
+  },
+  "compileType": "miniprogram"
+}
